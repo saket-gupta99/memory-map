@@ -122,8 +122,8 @@ function checkMatch() {
         result++;
         score.textContent = result;
         rightCard.push(chosenCard);
-        image[optionOne].src = '';
-        image[optionTwo].src = '';
+        image[optionOne].src = 'images/white.png';
+        image[optionTwo].src = 'images/white.png';
         image[optionOne].removeEventListener('click', flipCard);
         image[optionTwo].removeEventListener('click', flipCard);
         playSound('sounds/right-answer.mp3');
